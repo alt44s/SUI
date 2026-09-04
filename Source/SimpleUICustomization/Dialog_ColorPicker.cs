@@ -8,7 +8,7 @@ namespace SimpleUICustomization
     [StaticConstructorOnStartup]
     public class Dialog_ColorPicker : Window
     {
-        public enum PreviewKind { None, WindowBG, MenuSectionBG, TabBG, ButtonBG, BottomBarBG, GizmoBG, Accent, Checkbox, Slider, Scrollbar, FillableBar, FillableBarBackdrop }
+        public enum PreviewKind { None, WindowBG, MenuSectionBG, TabBG, ButtonBG, BottomBarBG, GizmoBG, Accent, Checkbox, Slider, Scrollbar, FillableBar, FillableBarBackdrop, TextColor }
 
         static readonly System.Collections.Generic.List<Color> recentSwatches = new System.Collections.Generic.List<Color>();
         const int MaxRecentSwatches = 12;
@@ -197,6 +197,17 @@ namespace SimpleUICustomization
                 case PreviewKind.TabBG:
                     ThemeElementRenderer.DrawTabShape(null, box, color, atlas);
                     break;
+                case PreviewKind.TextColor:
+                    {
+                        Rect txt = CenteredRect(box, Mathf.Min(box.width, 160f), 32f);
+                        Color prevT = GUI.color;
+                        GUI.color = color;
+                        Text.Anchor = TextAnchor.MiddleCenter;
+                        Widgets.Label(txt, "SUIC_Sample".Translate());
+                        Text.Anchor = TextAnchor.UpperLeft;
+                        GUI.color = prevT;
+                        break;
+                    }
                 case PreviewKind.ButtonBG:
                 case PreviewKind.Accent:
                     {

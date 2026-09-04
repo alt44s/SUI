@@ -98,6 +98,15 @@ namespace SimpleUICustomization
                 LongEventHandler.ExecuteWhenFinished(() => ThemeLoader.ApplyFont("", 0));
             }
 
+            listing.Label("SUIC_TextColor".Translate());
+            Rect textColorRow = listing.GetRect(24f);
+            ColorButton(textColorRow.LeftPartPixels(textColorRow.width - 70f), () => Settings.live.textColor ?? Color.white, c => { Settings.live.textColor = c; Settings.Notify_Edited(); }, Dialog_ColorPicker.PreviewKind.TextColor);
+            if (Widgets.ButtonText(new Rect(textColorRow.xMax - 64f, textColorRow.y, 64f, textColorRow.height), "SUIC_Reset".Translate()))
+            {
+                Settings.live.textColor = null;
+                Settings.Notify_Edited();
+            }
+            listing.Gap(6f);
             listing.Label("SUIC_FontSizeOffset".Translate(Settings.live.fontSizeOffset.ToString("+0;-0;0")));
             Rect sizeRow = listing.GetRect(24f);
             int prevOffset = Settings.live.fontSizeOffset;

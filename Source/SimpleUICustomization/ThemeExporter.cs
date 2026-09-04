@@ -285,6 +285,7 @@ namespace SimpleUICustomization
             }
             if (v.hoverColor.HasValue) sb.AppendLine($"    <hoverColor>{ColorXml(v.hoverColor.Value)}</hoverColor>");
             if (v.clickColor.HasValue) sb.AppendLine($"    <clickColor>{ColorXml(v.clickColor.Value)}</clickColor>");
+            if (v.textColor.HasValue) sb.AppendLine($"    <textColor>{ColorXml(v.textColor.Value)}</textColor>");
             if (v.windowBG.HasValue) sb.AppendLine($"    <windowBGColor>{ColorXml(v.windowBG.Value)}</windowBGColor>");
             if (v.menuSectionBG.HasValue) sb.AppendLine($"    <menuSectionBGColor>{ColorXml(v.menuSectionBG.Value)}</menuSectionBGColor>");
             if (v.tabBG.HasValue) sb.AppendLine($"    <tabBGColor>{ColorXml(v.tabBG.Value)}</tabBGColor>");

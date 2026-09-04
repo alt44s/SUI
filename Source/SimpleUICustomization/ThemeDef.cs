@@ -10,6 +10,7 @@ namespace SimpleUICustomization
         public Color backgroundColor = new Color(0.15f, 0.15f, 0.15f);
         public Color? hoverColor;
         public Color? clickColor;
+        public Color? textColor;
         public string fontName = "";
         public int fontSizeOffset = 0;
         public string cursorPath = "";
@@ -71,6 +72,7 @@ namespace SimpleUICustomization
                 background = backgroundColor,
                 hoverColor = hoverColor,
                 clickColor = clickColor,
+                textColor = textColor,
                 fontName = fontName,
                 fontSizeOffset = fontSizeOffset,
                 cursorPath = cursorPath,

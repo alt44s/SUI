@@ -122,6 +122,19 @@ namespace SimpleUICustomization
             }
         }
 
+        [HarmonyPatch(typeof(Widgets), nameof(Widgets.Label), new[] { typeof(Rect), typeof(string) })]
+        static class Patch_LabelTextColor
+        {
+            static void Prefix(out Color __state)
+            {
+                __state = GUI.color;
+                if (On && V.textColor.HasValue && GUI.color == Color.white)
+                    GUI.color = V.textColor.Value;
+            }
+
+            static void Postfix(Color __state) => GUI.color = __state;
+        }
+
         [HarmonyPatch(typeof(Widgets), nameof(Widgets.CheckboxDraw))]
         static class Patch_CheckboxDraw
         {

@@ -90,6 +90,7 @@
   <SUIC_SliceTexture>Slice texture</SUIC_SliceTexture>
   <SUIC_WindowBGOutline>Draw window outline</SUIC_WindowBGOutline>
   <SUIC_PickPartialTexture>Pick partial texture</SUIC_PickPartialTexture>
+  <SUIC_TextColor>Text Color</SUIC_TextColor>
   <SUIC_Undo>Undo</SUIC_Undo>
   <SUIC_Redo>Redo</SUIC_Redo>
 </LanguageData>

@@ -91,5 +91,6 @@
     <Compile Include="UIMod.cs" />
     <Compile Include="UISettings.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

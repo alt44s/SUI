@@ -22,6 +22,7 @@ namespace SimpleUICustomization
             Scribe_Values.Look(ref live.background, "background", new Color(0.15f, 0.15f, 0.15f));
             Scribe_Values.Look(ref live.hoverColor, "hoverColor", null);
             Scribe_Values.Look(ref live.clickColor, "clickColor", null);
+            Scribe_Values.Look(ref live.textColor, "textColor", null);
             Scribe_Values.Look(ref live.fontName, "fontName", "");
             Scribe_Values.Look(ref live.fontSizeOffset, "fontSizeOffset", 0);
             Scribe_Values.Look(ref live.cursorPath, "cursorPath", "");
@@ -87,7 +88,7 @@ namespace SimpleUICustomization
             var def = DefDatabase<ThemeDef>.GetNamedSilentFail(activeThemeDefName);
             if (def == null) return "Custom";
             return live.accent == def.accentColor && live.background == def.backgroundColor
-                && live.hoverColor == def.hoverColor && live.clickColor == def.clickColor
+                && live.hoverColor == def.hoverColor && live.clickColor == def.clickColor && live.textColor == def.textColor
                 && live.fontName == def.fontName && live.fontSizeOffset == def.fontSizeOffset && live.cursorPath == def.cursorPath
                 && live.disabledElements.SetEquals(def.disabledElements) && live.windowBG == def.windowBGColor
                 && live.menuSectionBG == def.menuSectionBGColor && live.tabBG == def.tabBGColor
