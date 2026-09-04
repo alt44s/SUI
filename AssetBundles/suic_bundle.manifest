@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2617503526
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0a9ad069d11c8410f0d70f9cf22972d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9372662e05ede815898c391bbc5766da
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0a9ad069d11c8410f0d70f9cf22972d6
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/suic_bundle/SUIC_WindowBG_Rounded.png
+- Assets/bundles/suic_bundle/JetBrainsMono.ttf
+- Assets/bundles/suic_bundle/Georgia.ttf
+- Assets/bundles/suic_bundle/Ubuntu.ttf
+- Assets/bundles/suic_bundle/MedievalSharp.ttf
+- Assets/bundles/suic_bundle/AtkinsonHyperlegible.ttf
+- Assets/bundles/suic_bundle/Tahoma.ttf
+- Assets/bundles/suic_bundle/SUIC_ButtonBG.png
+- Assets/bundles/suic_bundle/Consolas.ttf
+- Assets/bundles/suic_bundle/OpenDyslexic.otf
+- Assets/bundles/suic_bundle/SUIC_ButtonSubtleAtlas.png
+- Assets/bundles/suic_bundle/Arial.TTF
+- Assets/bundles/suic_bundle/SUIC_DesButBG.png
+- Assets/bundles/suic_bundle/Verdana.ttf
+- Assets/bundles/suic_bundle/SUIC_TabAtlas.png
+Dependencies: []

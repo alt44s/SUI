@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SUIC_SettingsCategory>SimplyUI - UI Customization</SUIC_SettingsCategory>
+  <SUIC_EnableTheming>Enable theming</SUIC_EnableTheming>
+  <SUIC_Active>Active: {0}</SUIC_Active>
+  <SUIC_Presets>Presets</SUIC_Presets>
+  <SUIC_PickPreset>Pick preset...</SUIC_PickPreset>
+  <SUIC_ExportCurrentTheme>Export current theme...</SUIC_ExportCurrentTheme>
+  <SUIC_ThemeNameLabel>Theme name:</SUIC_ThemeNameLabel>
+  <SUIC_AccentColor>Accent color</SUIC_AccentColor>
+  <SUIC_BackgroundColor>Background color</SUIC_BackgroundColor>
+  <SUIC_Font>Font</SUIC_Font>
+  <SUIC_Vanilla>Vanilla</SUIC_Vanilla>
+  <SUIC_PickLabel>Pick: {0}</SUIC_PickLabel>
+  <SUIC_ResetToVanilla>Reset to Vanilla</SUIC_ResetToVanilla>
+  <SUIC_FontSizeOffset>Font size offset: {0}</SUIC_FontSizeOffset>
+  <SUIC_CustomCursor>Custom cursor</SUIC_CustomCursor>
+  <SUIC_ResetCursor>Reset cursor</SUIC_ResetCursor>
+  <SUIC_AdvancedPerElementColors>Advanced per-element colors</SUIC_AdvancedPerElementColors>
+  <SUIC_HoverTintColor>Hover tint color</SUIC_HoverTintColor>
+  <SUIC_ClickTintColor>Click tint color</SUIC_ClickTintColor>
+  <SUIC_WindowBackground>Window background</SUIC_WindowBackground>
+  <SUIC_MenuSectionBackground>Menu section background</SUIC_MenuSectionBackground>
+  <SUIC_TabBackground>Tab background</SUIC_TabBackground>
+  <SUIC_ButtonBackground>Button background</SUIC_ButtonBackground>
+  <SUIC_BottomBarBackground>Bottom bar background</SUIC_BottomBarBackground>
+  <SUIC_GizmoBackground>Gizmo background</SUIC_GizmoBackground>
+  <SUIC_Inherited> (inherited)</SUIC_Inherited>
+  <SUIC_CustomTexture> [custom texture]</SUIC_CustomTexture>
+  <SUIC_Reset>Reset</SUIC_Reset>
+  <SUIC_PickTexture>Pick texture...</SUIC_PickTexture>
+  <SUIC_Clear>Clear</SUIC_Clear>
+  <SUIC_EnableUISounds>Enable UI sounds</SUIC_EnableUISounds>
+  <SUIC_OverwriteConfirm>A theme named "{0}" was already exported here:\n{1}\n\nOverwrite it?</SUIC_OverwriteConfirm>
+  <SUIC_ExportedToLabel>Theme exported to:</SUIC_ExportedToLabel>
+  <SUIC_ExportedToNote>Copy this folder to your RimWorld Mods folder and add it to your active mod list to use the theme. You can also upload your created theme to the Steam Workshop.</SUIC_ExportedToNote>
+  <SUIC_PickColor>Pick color...</SUIC_PickColor>
+  <SUIC_PleaseEnterThemeName>Please enter a theme name.</SUIC_PleaseEnterThemeName>
+  <SUIC_PleaseFillAllFields>Please fill in the author and description fields.</SUIC_PleaseFillAllFields>
+  <SUIC_ExportFailed>Export failed: {0}</SUIC_ExportFailed>
+  <SUIC_Cancel>Cancel</SUIC_Cancel>
+  <SUIC_OK>OK</SUIC_OK>
+  <SUIC_CopyPath>Copy path</SUIC_CopyPath>
+  <SUIC_OpenFolder>Open folder</SUIC_OpenFolder>
+  <SUIC_Close>Close</SUIC_Close>
+  <SUIC_FailedToOpenFolder>Couldn't open folder, path copied to clipboard instead.</SUIC_FailedToOpenFolder>
+  <SUIC_Darkness>Darkness</SUIC_Darkness>
+  <SUIC_Alpha>Alpha</SUIC_Alpha>
+  <SUIC_Copy>Copy</SUIC_Copy>
+  <SUIC_Paste>Paste</SUIC_Paste>
+  <SUIC_Accept>Accept</SUIC_Accept>
+  <SUIC_Preview>Preview</SUIC_Preview>
+  <SUIC_Sample>Sample</SUIC_Sample>
+  <SUIC_InGameTextureChecked>In-game texture ✓</SUIC_InGameTextureChecked>
+  <SUIC_InGameTexture>In-game texture</SUIC_InGameTexture>
+  <SUIC_FromDiskChecked>From disk ✓</SUIC_FromDiskChecked>
+  <SUIC_FromDisk>From disk</SUIC_FromDisk>
+  <SUIC_Go>Go</SUIC_Go>
+  <SUIC_PathNotFound>Path not found or wrong file type.</SUIC_PathNotFound>
+  <SUIC_InvalidPath>Invalid path: {0}</SUIC_InvalidPath>
+  <SUIC_CantAccessFolder>Can't access this folder: {0}</SUIC_CantAccessFolder>
+  <SUIC_NoPresetsFound>No presets found.</SUIC_NoPresetsFound>
+  <SUIC_NoEntriesFound>No entries found.</SUIC_NoEntriesFound>
+  <SUIC_MainMenuTitle>Main menu title</SUIC_MainMenuTitle>
+  <SUIC_MainMenuBackgrounds>Main menu backgrounds ({0})</SUIC_MainMenuBackgrounds>
+  <SUIC_ManageBackgrounds>Manage backgrounds...</SUIC_ManageBackgrounds>
+  <SUIC_CycleBackgrounds>Cycle backgrounds</SUIC_CycleBackgrounds>
+  <SUIC_CycleInterval>Cycle interval: {0}</SUIC_CycleInterval>
+  <SUIC_FadeDuration>Transition speed: {0}s</SUIC_FadeDuration>
+  <SUIC_AddBackground>Add background...</SUIC_AddBackground>
+  <SUIC_BackgroundCount>{0} in rotation</SUIC_BackgroundCount>
+  <SUIC_NoBackgroundsInRotation>No backgrounds added yet.</SUIC_NoBackgroundsInRotation>
+  <SUIC_SoundOverrideCount>{0} sound(s) customized</SUIC_SoundOverrideCount>
+  <SUIC_AddSoundOverride>Add sound override...</SUIC_AddSoundOverride>
+  <SUIC_Scrollbar>Scrollbar</SUIC_Scrollbar>
+  <SUIC_CheckboxTint>Checkbox Tint</SUIC_CheckboxTint>
+  <SUIC_PickOnTexture>Pick checked texture...</SUIC_PickOnTexture>
+  <SUIC_PickOffTexture>Pick unchecked texture...</SUIC_PickOffTexture>
+  <SUIC_SliderTint>Slider Tint</SUIC_SliderTint>
+  <SUIC_FloatMenuBackground>Right-Click Menu Background</SUIC_FloatMenuBackground>
+  <SUIC_TextFieldBackground>Text Field Background</SUIC_TextFieldBackground>
+  <SUIC_FillableBarTint>Progress Bar Tint</SUIC_FillableBarTint>
+  <SUIC_FillableBarBackdropTint>Progress Bar Backdrop Tint</SUIC_FillableBarBackdropTint>
+  <SUIC_GroupTints>Tints</SUIC_GroupTints>
+  <SUIC_GroupPanels>Panels</SUIC_GroupPanels>
+  <SUIC_GroupControls>Controls</SUIC_GroupControls>
+  <SUIC_GroupMisc>Misc</SUIC_GroupMisc>
+  <SUIC_AuthorLabel>Author Name</SUIC_AuthorLabel>
+  <SUIC_DescriptionLabel>Theme Description</SUIC_DescriptionLabel>
+  <SUIC_SliceTexture>Slice texture</SUIC_SliceTexture>
+  <SUIC_WindowBGOutline>Draw window outline</SUIC_WindowBGOutline>
+  <SUIC_PickPartialTexture>Pick partial texture</SUIC_PickPartialTexture>
+  <SUIC_Undo>Undo</SUIC_Undo>
+  <SUIC_Redo>Redo</SUIC_Redo>
+</LanguageData>

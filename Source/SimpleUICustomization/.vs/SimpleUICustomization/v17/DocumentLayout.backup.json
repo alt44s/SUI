@@ -1,0 +1,299 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\themeelementrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:themeelementrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\themeexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:themeexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\themeloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:themeloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\dialog_colorpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:dialog_colorpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\sui\\source\\simpleuicustomization\\uimod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:uimod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\uisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:uisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\themedef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:themedef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\themevalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:themevalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\dialog_textentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:dialog_textentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\dialog_picker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:dialog_picker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\dialog_themepreviewcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:dialog_themepreviewcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\dialog_backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:dialog_backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\themebackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:themebackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\themeaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:themeaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SimpleUICustomization||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\cursorformats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42898126-9AB5-4286-B0D5-88AA2510A375}|SimpleUICustomization.csproj|solutionrelative:cursorformats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThemeBackground.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeBackground.cs",
+              "RelativeDocumentMoniker": "ThemeBackground.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeBackground.cs",
+              "RelativeToolTip": "ThemeBackground.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T20:42:32.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dialog_ThemePreviewCapture.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_ThemePreviewCapture.cs",
+              "RelativeDocumentMoniker": "Dialog_ThemePreviewCapture.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_ThemePreviewCapture.cs",
+              "RelativeToolTip": "Dialog_ThemePreviewCapture.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T10:36:01.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dialog_TextEntry.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_TextEntry.cs",
+              "RelativeDocumentMoniker": "Dialog_TextEntry.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_TextEntry.cs",
+              "RelativeToolTip": "Dialog_TextEntry.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswF8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T07:24:53.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThemeExporter.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeExporter.cs",
+              "RelativeDocumentMoniker": "ThemeExporter.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeExporter.cs",
+              "RelativeToolTip": "ThemeExporter.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAswG4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T07:24:37.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UISettings.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\UISettings.cs",
+              "RelativeDocumentMoniker": "UISettings.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\UISettings.cs",
+              "RelativeToolTip": "UISettings.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAswMkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T18:52:10.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SimpleUICustomization",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\SimpleUICustomization.csproj",
+              "RelativeDocumentMoniker": "SimpleUICustomization.csproj",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\SimpleUICustomization.csproj",
+              "RelativeToolTip": "SimpleUICustomization.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-21T07:23:47.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThemeElementRenderer.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeElementRenderer.cs",
+              "RelativeDocumentMoniker": "ThemeElementRenderer.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeElementRenderer.cs",
+              "RelativeToolTip": "ThemeElementRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T05:58:55.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HarmonyPatches.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\HarmonyPatches.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\HarmonyPatches.cs",
+              "RelativeToolTip": "HarmonyPatches.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCIAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T18:52:49.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dialog_BackgroundManager.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_BackgroundManager.cs",
+              "RelativeDocumentMoniker": "Dialog_BackgroundManager.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_BackgroundManager.cs",
+              "RelativeToolTip": "Dialog_BackgroundManager.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAswKgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T20:42:41.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dialog_ColorPicker.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_ColorPicker.cs",
+              "RelativeDocumentMoniker": "Dialog_ColorPicker.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_ColorPicker.cs",
+              "RelativeToolTip": "Dialog_ColorPicker.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAswDgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T05:44:33.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ThemeAudio.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeAudio.cs",
+              "RelativeDocumentMoniker": "ThemeAudio.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeAudio.cs",
+              "RelativeToolTip": "ThemeAudio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T04:51:11.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CursorFormats.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\CursorFormats.cs",
+              "RelativeDocumentMoniker": "CursorFormats.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\CursorFormats.cs",
+              "RelativeToolTip": "CursorFormats.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAmwMsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T01:22:26.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dialog_Picker.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_Picker.cs",
+              "RelativeDocumentMoniker": "Dialog_Picker.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\Dialog_Picker.cs",
+              "RelativeToolTip": "Dialog_Picker.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAmwKUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:30:03.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThemeLoader.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeLoader.cs",
+              "RelativeDocumentMoniker": "ThemeLoader.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeLoader.cs",
+              "RelativeToolTip": "ThemeLoader.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAswC4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T18:52:36.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UIMod.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\UIMod.cs",
+              "RelativeDocumentMoniker": "UIMod.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\UIMod.cs",
+              "RelativeToolTip": "UIMod.cs",
+              "ViewState": "AgIAAFoBAAAAAAAAAAAswIIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T18:52:24.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThemeValues.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeValues.cs",
+              "RelativeDocumentMoniker": "ThemeValues.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeValues.cs",
+              "RelativeToolTip": "ThemeValues.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAA7wLoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T18:52:00.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThemeDef.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeDef.cs",
+              "RelativeDocumentMoniker": "ThemeDef.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\SUI\\Source\\SimpleUICustomization\\ThemeDef.cs",
+              "RelativeToolTip": "ThemeDef.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T18:49:11.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

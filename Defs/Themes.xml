@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Ocean</defName>
+		<label>Ocean</label>
+		<accentColor>(0.32, 0.62, 0.82, 1)</accentColor>
+		<backgroundColor>(0.08, 0.12, 0.17, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Crimson</defName>
+		<label>Crimson</label>
+		<accentColor>(0.78, 0.30, 0.32, 1)</accentColor>
+		<backgroundColor>(0.15, 0.08, 0.09, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Forest</defName>
+		<label>Forest</label>
+		<accentColor>(0.36, 0.68, 0.43, 1)</accentColor>
+		<backgroundColor>(0.07, 0.13, 0.09, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Nord</defName>
+		<label>Nord</label>
+		<accentColor>(0.55, 0.72, 0.78, 1)</accentColor>
+		<backgroundColor>(0.12, 0.15, 0.19, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Dracula</defName>
+		<label>Dracula</label>
+		<accentColor>(0.72, 0.55, 0.91, 1)</accentColor>
+		<backgroundColor>(0.10, 0.09, 0.14, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Gruvbox</defName>
+		<label>Gruvbox</label>
+		<accentColor>(0.83, 0.59, 0.27, 1)</accentColor>
+		<backgroundColor>(0.13, 0.11, 0.09, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Solarized</defName>
+		<label>Solarized</label>
+		<accentColor>(0.16, 0.62, 0.75, 1)</accentColor>
+		<backgroundColor>(0.02, 0.12, 0.15, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Walnut</defName>
+		<label>Walnut</label>
+		<accentColor>(0.62, 0.53, 0.43, 1)</accentColor>
+		<backgroundColor>(0.115, 0.095, 0.08, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Olive</defName>
+		<label>Olive</label>
+		<accentColor>(0.67, 0.70, 0.39, 1)</accentColor>
+		<backgroundColor>(0.11, 0.12, 0.08, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+	<SimpleUICustomization.ThemeDef>
+		<defName>SUIC_Ash</defName>
+		<label>Ash</label>
+		<accentColor>(0.72, 0.75, 0.78, 1)</accentColor>
+		<backgroundColor>(0.08, 0.09, 0.10, 1)</backgroundColor>
+		<buttonTex>UI/Widgets/SUIC_ButtonBG</buttonTex>
+		<bottomBarTex>UI/Widgets/SUIC_ButtonSubtleAtlas</bottomBarTex>
+		<gizmoTex>UI/Widgets/SUIC_DesButBG</gizmoTex>
+		<tabTex>UI/Widgets/SUIC_TabAtlas</tabTex>
+	</SimpleUICustomization.ThemeDef>
+	
+</Defs>

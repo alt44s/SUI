@@ -1,0 +1,12 @@
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUC\Assemblies\SimpleUICustomization.dll
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUC\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.csproj.AssemblyReference.cache
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUC\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.csproj.CoreCompileInputs.cache
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUC\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.dll
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUIC\Assemblies\SimpleUICustomization.dll
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUIC\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.csproj.AssemblyReference.cache
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUIC\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.csproj.CoreCompileInputs.cache
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUIC\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.dll
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUI\Assemblies\SimpleUICustomization.dll
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUI\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.csproj.AssemblyReference.cache
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUI\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.csproj.CoreCompileInputs.cache
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\SUI\Source\SimpleUICustomization\obj\Debug\SimpleUICustomization.dll
