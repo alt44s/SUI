@@ -246,9 +246,12 @@ namespace SimpleUICustomization
             static readonly Texture2D CooldownBarTex = SafeField<Texture2D>(typeof(Command_Ability), "cooldownBarTex");
             static readonly Color CooldownBarColor = CooldownBarTex != null ? CooldownBarTex.GetPixel(0, 0) : Color.white;
 
-            static bool Prefix(Rect rect, float fillPercent, ref Texture2D fillTex, ref Texture2D bgTex, ref Rect __result)
+            static bool Prefix(Rect rect, float fillPercent, ref Texture2D fillTex, ref Texture2D bgTex, bool doBorder, ref Rect __result)
             {
-                bool elemOn = On && V.ElemOn(ThemeValues.Elem.FillableBar);
+                // The colonist bar's name-label health fill has its own element,
+                // so it can be left vanilla or styled apart from other bars.
+                bool isColonistHealth = Patch_ColonistBarDrawColonist.InColonistBar && fillTex == GenMapUI.OverlayHealthTex;
+                bool elemOn = On && V.ElemOn(isColonistHealth ? ThemeValues.Elem.ColonistBarHealth : ThemeValues.Elem.FillableBar);
                 if (!elemOn && FillPreviewOverride == null && BackdropPreviewOverride == null) return true;
                 bool isCooldownBar = elemOn && fillTex == CooldownBarTex;
                 bool hadBackdrop = bgTex != null;
@@ -257,8 +260,9 @@ namespace SimpleUICustomization
                     fillTex = V.ResolvedFillableBarFillTex ?? BaseContent.WhiteTex;
                     if (hadBackdrop) bgTex = V.ResolvedFillableBarBGTex ?? BaseContent.WhiteTex;
                 }
-                bool doBorder = hadBackdrop && rect.height > 15f && rect.width > 20f;
-                Color backdropColor = BackdropPreviewOverride ?? (elemOn ? V.FillableBarBackdropBG : Color.white);
+                // Vanilla asks for no border on the health fill; honour that there.
+                doBorder = isColonistHealth ? doBorder : hadBackdrop && rect.height > 15f && rect.width > 20f;
+                Color backdropColor = BackdropPreviewOverride ?? (elemOn ? (isColonistHealth ? V.ColonistBarHealthBackdropBG : V.FillableBarBackdropBG) : Color.white);
                 if (doBorder)
                 {
                     Color prevBorder = GUI.color;
@@ -277,7 +281,7 @@ namespace SimpleUICustomization
                 __result = rect;
                 rect.width *= fillPercent;
                 Color prev = GUI.color;
-                Color fillColor = FillPreviewOverride ?? (elemOn ? V.FillableBarBG : Color.white);
+                Color fillColor = FillPreviewOverride ?? (elemOn ? (isColonistHealth ? V.ColonistBarHealthBG : V.FillableBarBG) : Color.white);
                 if (isCooldownBar && V.ResolvedFillableBarFillTex == null && FillPreviewOverride == null)
                     fillColor.a *= CooldownBarColor.a;
                 GUI.color = fillColor;
@@ -285,6 +289,19 @@ namespace SimpleUICustomization
                 GUI.color = prev;
                 return false;
             }
+        }
+
+        /// <summary>Flags draws inside the colonist bar, so Patch_FillableBar can spot its health fill.</summary>
+        [HarmonyPatch(typeof(ColonistBarColonistDrawer), nameof(ColonistBarColonistDrawer.DrawColonist))]
+        public static class Patch_ColonistBarDrawColonist
+        {
+            // Main thread only: IMGUI drawing never runs elsewhere.
+            public static bool InColonistBar;
+
+            static void Prefix() => InColonistBar = true;
+
+            // Finalizer, not postfix, so a throw while drawing never leaves the flag set.
+            static void Finalizer() => InColonistBar = false;
         }
 
         [HarmonyPatch(typeof(Widgets), nameof(Widgets.TextField), new[] { typeof(Rect), typeof(string) })]

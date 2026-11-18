@@ -176,6 +176,8 @@ namespace SimpleUICustomization
                     AdvancedRow(listing, "SUIC_TextFieldBackground".Translate(), ThemeValues.Elem.TextField, () => Settings.live.textFieldBG, c => Settings.live.textFieldBG = c, Dialog_ColorPicker.PreviewKind.MenuSectionBG, Settings.live.textFieldTex, v => Settings.live.textFieldTex = v);
                     AdvancedRow(listing, "SUIC_FillableBarTint".Translate(), ThemeValues.Elem.FillableBar, () => Settings.live.fillableBarBG, c => Settings.live.fillableBarBG = c, Dialog_ColorPicker.PreviewKind.FillableBar, Settings.live.fillableBarFillTex, v => Settings.live.fillableBarFillTex = v);
                     AdvancedRow(listing, "SUIC_FillableBarBackdropTint".Translate(), ThemeValues.Elem.FillableBar, () => Settings.live.fillableBarBackdropBG, c => Settings.live.fillableBarBackdropBG = c, Dialog_ColorPicker.PreviewKind.FillableBarBackdrop, Settings.live.fillableBarBGTex, v => Settings.live.fillableBarBGTex = v);
+                    AdvancedRow(listing, "SUIC_ColonistBarHealthTint".Translate(), ThemeValues.Elem.ColonistBarHealth, () => Settings.live.colonistBarHealthBG, c => Settings.live.colonistBarHealthBG = c, Dialog_ColorPicker.PreviewKind.FillableBar);
+                    AdvancedRow(listing, "SUIC_ColonistBarHealthBackdropTint".Translate(), ThemeValues.Elem.ColonistBarHealth, () => Settings.live.colonistBarHealthBackdropBG, c => Settings.live.colonistBarHealthBackdropBG = c, Dialog_ColorPicker.PreviewKind.FillableBarBackdrop);
                 }
 
                 if (Section(listing, "SUIC_GroupMisc".Translate(), "misc"))

@@ -81,6 +81,8 @@
   <SUIC_TextFieldBackground>Text Field Background</SUIC_TextFieldBackground>
   <SUIC_FillableBarTint>Progress Bar Tint</SUIC_FillableBarTint>
   <SUIC_FillableBarBackdropTint>Progress Bar Backdrop Tint</SUIC_FillableBarBackdropTint>
+  <SUIC_ColonistBarHealthTint>Colonist Bar Health Tint</SUIC_ColonistBarHealthTint>
+  <SUIC_ColonistBarHealthBackdropTint>Colonist Bar Health Backdrop Tint</SUIC_ColonistBarHealthBackdropTint>
   <SUIC_GroupTints>Tints</SUIC_GroupTints>
   <SUIC_GroupPanels>Panels</SUIC_GroupPanels>
   <SUIC_GroupControls>Controls</SUIC_GroupControls>

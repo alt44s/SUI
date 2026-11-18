@@ -298,6 +298,8 @@ namespace SimpleUICustomization
             if (v.textFieldBG.HasValue) sb.AppendLine($"    <textFieldBGColor>{ColorXml(v.textFieldBG.Value)}</textFieldBGColor>");
             if (v.fillableBarBG.HasValue) sb.AppendLine($"    <fillableBarBGColor>{ColorXml(v.fillableBarBG.Value)}</fillableBarBGColor>");
             if (v.fillableBarBackdropBG.HasValue) sb.AppendLine($"    <fillableBarBackdropBGColor>{ColorXml(v.fillableBarBackdropBG.Value)}</fillableBarBackdropBGColor>");
+            if (v.colonistBarHealthBG.HasValue) sb.AppendLine($"    <colonistBarHealthBGColor>{ColorXml(v.colonistBarHealthBG.Value)}</colonistBarHealthBGColor>");
+            if (v.colonistBarHealthBackdropBG.HasValue) sb.AppendLine($"    <colonistBarHealthBackdropBGColor>{ColorXml(v.colonistBarHealthBackdropBG.Value)}</colonistBarHealthBackdropBGColor>");
             if (!windowTex.NullOrEmpty()) sb.AppendLine($"    <windowTex>{Escape(windowTex)}</windowTex>");
             if (!v.windowBGSliced) sb.AppendLine("    <windowBGSliced>false</windowBGSliced>");
             if (!v.windowBGOutline) sb.AppendLine("    <windowBGOutline>false</windowBGOutline>");

@@ -28,6 +28,8 @@ namespace SimpleUICustomization
         public Color? textFieldBGColor;
         public Color? fillableBarBGColor;
         public Color? fillableBarBackdropBGColor;
+        public Color? colonistBarHealthBGColor;
+        public Color? colonistBarHealthBackdropBGColor;
         public string windowTex = "";
         public bool windowBGSliced = true;
         public bool windowBGOutline = true;
@@ -90,6 +92,8 @@ namespace SimpleUICustomization
                 textFieldBG = textFieldBGColor,
                 fillableBarBG = fillableBarBGColor,
                 fillableBarBackdropBG = fillableBarBackdropBGColor,
+                colonistBarHealthBG = colonistBarHealthBGColor,
+                colonistBarHealthBackdropBG = colonistBarHealthBackdropBGColor,
                 windowTex = windowTex,
                 windowBGSliced = windowBGSliced,
                 windowBGOutline = windowBGOutline,
