@@ -41,6 +41,8 @@ namespace SimpleUICustomization
             Scribe_Values.Look(ref live.textFieldBG, "textFieldBG", null);
             Scribe_Values.Look(ref live.fillableBarBG, "fillableBarBG", null);
             Scribe_Values.Look(ref live.fillableBarBackdropBG, "fillableBarBackdropBG", null);
+            Scribe_Values.Look(ref live.colonistBarHealthBG, "colonistBarHealthBG", null);
+            Scribe_Values.Look(ref live.colonistBarHealthBackdropBG, "colonistBarHealthBackdropBG", null);
             Scribe_Values.Look(ref live.windowTex, "windowTex", "");
             Scribe_Values.Look(ref live.windowBGSliced, "windowBGSliced", true);
             Scribe_Values.Look(ref live.windowBGOutline, "windowBGOutline", true);
@@ -96,6 +98,7 @@ namespace SimpleUICustomization
                 && live.scrollbarBG == def.scrollbarBGColor
                 && live.checkboxBG == def.checkboxBGColor && live.sliderBG == def.sliderBGColor
                 && live.textFieldBG == def.textFieldBGColor && live.fillableBarBG == def.fillableBarBGColor && live.fillableBarBackdropBG == def.fillableBarBackdropBGColor
+                && live.colonistBarHealthBG == def.colonistBarHealthBGColor && live.colonistBarHealthBackdropBG == def.colonistBarHealthBackdropBGColor
                 && live.windowTex == def.windowTex && live.menuSectionTex == def.menuSectionTex
                 && live.windowBGSliced == def.windowBGSliced && live.windowBGOutline == def.windowBGOutline
                 && live.tabTex == def.tabTex && live.buttonTex == def.buttonTex

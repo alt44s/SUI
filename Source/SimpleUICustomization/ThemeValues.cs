@@ -19,7 +19,7 @@ namespace SimpleUICustomization
         {
             public const string Window = "window", MenuSection = "menuSection", Tab = "tab", Button = "button",
                 BottomBar = "bottomBar", Gizmo = "gizmo", Scrollbar = "scrollbar", Checkbox = "checkbox",
-                Slider = "slider", TextField = "textField", FillableBar = "fillableBar",
+                Slider = "slider", TextField = "textField", FillableBar = "fillableBar", ColonistBarHealth = "colonistBarHealth",
                 MainMenuTitle = "mainMenuTitle", HoverClick = "hoverClick";
         }
         public HashSet<string> disabledElements = new HashSet<string>();
@@ -36,6 +36,8 @@ namespace SimpleUICustomization
         public Color? textFieldBG;
         public Color? fillableBarBG;
         public Color? fillableBarBackdropBG;
+        public Color? colonistBarHealthBG;
+        public Color? colonistBarHealthBackdropBG;
         public string windowTex = "";
         public bool windowBGSliced = true;
         public bool windowBGOutline = true;
@@ -98,6 +100,8 @@ namespace SimpleUICustomization
                 textFieldBG = textFieldBG,
                 fillableBarBG = fillableBarBG,
                 fillableBarBackdropBG = fillableBarBackdropBG,
+                colonistBarHealthBG = colonistBarHealthBG,
+                colonistBarHealthBackdropBG = colonistBarHealthBackdropBG,
                 checkboxOnTex = checkboxOnTex,
                 checkboxOffTex = checkboxOffTex,
                 checkboxPartialTex = checkboxPartialTex,
@@ -114,6 +118,7 @@ namespace SimpleUICustomization
         }
 
         Color _hover, _click, _windowBG, _menuBG, _tabBG, _btnBG, _barBG, _gizmoBG, _scrollBG, _checkboxBG, _sliderBG, _textFieldBG, _fillableBarBG, _fillableBarBackdropBG;
+        Color _colonistBarHealthBG, _colonistBarHealthBackdropBG;
         public Texture2D ResolvedWindowTex, ResolvedMenuSectionTex, ResolvedTabTex, ResolvedButtonTex, ResolvedBottomBarTex, ResolvedGizmoTex, ResolvedScrollbarTex, ResolvedTitleTex;
         public Texture2D ResolvedCheckboxOnTex, ResolvedCheckboxOffTex, ResolvedCheckboxPartialTex, ResolvedTextFieldTex, ResolvedFillableBarFillTex, ResolvedFillableBarBGTex;
         public List<Texture2D> ResolvedBackgrounds = new List<Texture2D>();
@@ -132,6 +137,8 @@ namespace SimpleUICustomization
         public Color TextFieldBG => _textFieldBG;
         public Color FillableBarBG => _fillableBarBG;
         public Color FillableBarBackdropBG => _fillableBarBackdropBG;
+        public Color ColonistBarHealthBG => _colonistBarHealthBG;
+        public Color ColonistBarHealthBackdropBG => _colonistBarHealthBackdropBG;
 
         public bool HasBackgrounds
         {
@@ -163,6 +170,8 @@ namespace SimpleUICustomization
             _textFieldBG = textFieldBG ?? background;
             _fillableBarBG = fillableBarBG ?? accent;
             _fillableBarBackdropBG = fillableBarBackdropBG ?? Color.black;
+            _colonistBarHealthBG = colonistBarHealthBG ?? _fillableBarBG;
+            _colonistBarHealthBackdropBG = colonistBarHealthBackdropBG ?? _fillableBarBackdropBG;
         }
 
         public void RecomputeTextures()
